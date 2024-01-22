@@ -24,6 +24,9 @@
         .manrope-g-font{
             font-family: "Manrope", sans-serif;
         }
+        .para-color{
+            color: rgba(19, 19, 24, 0.40);
+        }
        
     </style>
   </head>
@@ -64,8 +67,44 @@
                 <button class="btn text-white bg-[#FF4240] hover:bg-[#FF4240]">Get Ticket</button>
             </div>
         </nav>
+        <!-- banner section -->
+        <div class="lg:relative">
+            <div class="carousel w-full   mt-8 lg:mt-12">
+                <!-- slide-1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/banner.png" class="w-full" />
+                    <div class="absolute lg:left-[97px]  bottom-52 lg:top-[90%] flex justify-between w-full lg:w-0 items-center gap-4 transform -translate-y-1/2   top-1/2 px-1">
+                        <a href="#slide2" class="btn btn-circle bg-black opacity-50 lg:opacity-100 lg:bg-black text-white lg:hover:bg-black border-none">
+                            <img src="./Images/left-arrow.png" alt="">
+                        </a> 
+                        <a href="#slide2" class="btn btn-circle  bg-black opacity-50 lg:opacity-100 lg:bg-black lg:hover:bg-black text-white border-none">
+                            <img src="./Images/right-arrow.png" alt="">
+                        </a>
+                    </div>
+                </div> 
+                <!-- slide-2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/banner.png" class="w-full" />
+                    <div class="absolute lg:left-[97px]  bottom-52 lg:top-[90%] flex justify-between w-full lg:w-0 items-center gap-4 transform -translate-y-1/2   top-1/2 px-1">
+                        <a href="#slide1" class="btn btn-circle bg-black opacity-50 lg:opacity-100 lg:bg-black text-white lg:hover:bg-black border-none">
+                            <img src="./Images/left-arrow.png" alt="">
+                        </a> 
+                        <a href="#slide1" class="btn btn-circle  bg-black opacity-50 lg:opacity-100 lg:bg-black lg:hover:bg-black text-white border-none">
+                            <img src="./Images/right-arrow.png" alt="">
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            <div class="lg:absolute lg:left-[730px] lg:bottom-[45px] bg-slate-800 lg:bg-[#131318] rounded-[16px] mt-2 lg:w-max p-3 lg:p-8">
+                <h1 class="text-white lg:font-extrabold text-[18px] lg:text-2xl">Meet all the heroes from the field</h1>
+                <p class="text-[#FFFFFF99] lg:font-medium lg:mt-2">Encounter field heroes, where valor and passion <br> converge in noble endeavors.</p>
+            </div>
+        </div>
     </header>
-    <main>
+
+    <main class="container mx-auto w-[95%] lg:w-[80%] ">
+
+
 
     </main>
     <footer>
