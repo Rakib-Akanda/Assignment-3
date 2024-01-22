@@ -24,11 +24,46 @@
         .manrope-g-font{
             font-family: "Manrope", sans-serif;
         }
+       
     </style>
   </head>
   <body class="manrope-g-font">
-    <header>
-        
+    <header class="container mx-auto w-[95%] lg:w-[80%] ">
+        <!-- nav section  -->
+        <nav class="flex justify-between items-center pt-5">
+            <div class="dropdown lg:hidden ">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle pr-6">
+                   <img src="./Images/ham.png" alt="">
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="">Home </a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            <div class="">
+              <h1 class="text-3xl lg:text-4xl font-extrabold">Hockey</h1>
+            </div>
+            <div class="">
+                <ul class="hidden lg:flex justify-center items-center font-bold">
+                    <a href=""><li class="pr-11"><span class="text-[#FF4240]">Home</span></li></a>
+                    <a href=""><li class="pr-11">About</li></a>
+                    <a href=""><li class="pr-11">Pages</li></a>
+                    <a href=""><li class="pr-11">Blog</li></a>
+                    <a href=""><li class="pr-11">Contact</li></a>
+                </ul> 
+            </div>
+            <div class="flex justify-center items-center ">
+                <div class="hidden lg:flex">
+                    <button class="btn btn-ghost btn-circle hover:bg-white">
+                        <img src="./Images/Frame-(1).png" alt="">
+                    </button>
+                </div>
+                <button class="btn text-white bg-[#FF4240] hover:bg-[#FF4240]">Get Ticket</button>
+            </div>
+        </nav>
     </header>
     <main>
 
