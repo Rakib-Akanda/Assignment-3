@@ -7,11 +7,8 @@
     <!-- favicon -->
     <link rel="icon" href="./Images/player.png">
     <!-- Tailwind and daisyUI cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Manrope Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +22,8 @@
             font-family: "Manrope", sans-serif;
         }
         .para-color{
-            color: rgba(19, 19, 24, 0.40);
+            color: rgba(16, 16, 20, 0.504);
+            font-size: 1.125rem;
         }
        
         /* title 
@@ -113,10 +111,10 @@
         <section>
             <div class="text-center">
                 <h1 class="text-2xl text-[#131318] lg:text-4xl font-extrabold">Professional Hockey Club</h1>
-                <p class="mt-4">Elite hockey club excelling on the ice with skill, teamwork, and a passion for <br> victory. Unrivaled excellence in sportsmanship.</p>
+                <p class="mt-4 para-color">Elite hockey club excelling on the ice with skill, teamwork, and a passion for <br> victory. Unrivaled excellence in sportsmanship.</p>
             </div>
             <!-- hr -->
-            <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:mt-20 lg:mb-8"></div>
+            <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:my-8"></div>
             <!-- RGBY circle -->
             <div class="lg:flex lg:justify-evenly lg:items-center space-y-5 ">
                 <div class="flex flex-col justify-center items-center mt-5">
@@ -140,7 +138,7 @@
                     </div>                   
                     <div class="text-center mt-6">
                         <h1 class="text-xl text-[#131318] lg:text-4xl font-medium">Experienced Coach</h1>
-                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 87% dedicated prayer facility.</p>
+                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 95% dedicated prayer facility.</p>
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center">
@@ -152,7 +150,7 @@
                     </div>                   
                     <div class="text-center mt-6">
                         <h1 class="text-xl text-[#131318] lg:text-4xl font-medium">Senior Player</h1>
-                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 87% dedicated prayer facility.</p>
+                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 90% dedicated prayer facility.</p>
                     </div>
                 </div>
                 <div class="flex flex-col justify-center items-center">
@@ -164,13 +162,69 @@
                     </div>
                     <div class="text-center mt-6">
                         <h1 class="text-xl text-[#131318] lg:text-4xl font-medium">Training Ground</h1>
-                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 87% dedicated prayer facility.</p>
+                        <p class="mt-2 para-color">Team's spirit fostered by <br>  an 80% dedicated prayer facility.</p>
                     </div>
                 </div>
             </div>
-            <!-- hr -->
-            <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:mt-20 lg:mb-8"></div>
         </section>
+        <!-- hr -->
+        <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:mt-24 lg:mb-6"></div>
+        <!-- Program Sections -->
+        <section>
+            <!-- Program text section -->
+            <div class="text-center">
+                <h1 class="text-2xl text-[#131318] lg:text-4xl font-extrabold">Program Sections</h1>
+                <p class="mt-4 para-color">Players excel in training, guided by coaches and supported by management,<br> engaging fans, and prioritizing community connections.</p>
+            </div>
+            <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:mt-8 lg:mb-8"></div>
+            <!-- Program img section -->
+            <div class="flex flex-col gap-4">
+                <div class=" flex flex-col gap-4 lg:flex lg:flex-row lg:justify-evenly  lg:gap-4">
+                    <div class="card   lg:w-fit bg-base-100 shadow-xl image-full">
+                        <figure><img src="./Images/red&green.png"/>
+                        </figure>
+                        <div class="card-body px-6 lg:px-8">
+                            <h2 class="text-[1.75rem] font-extrabold lg:mt-12">Junior Program</h2>
+                            <p class="">
+                                Junior Program fosters young talents through structured <br> training, skill development, and mentorship,  preparing them<br> for successful careers in hockey.
+                            </p>
+                            <div class="">
+                                <button class="btn text-white bg-[#FF4240] hover:bg-[#FF4240] outline-none border-none lg:mb-5">Register Now!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card lg:w-fit bg-base-100 shadow-xl image-full">
+                        <figure><img src="./Images/green-playground.png"/></figure>
+                        <div class="card-body px-6 lg:px-8">
+                            <h2 class="text-[1.75rem] font-extrabold lg:mt-12">Teenager Program</h2>
+                            <p class="">
+                                Junior Program fosters young talents through structured <br> training, skill development, and mentorship,  preparing them<br> for successful careers in hockey.
+                            </p>
+                            <div class="">
+                                <button class="btn text-white bg-[#FF4240] hover:bg-[#FF4240] outline-none border-none lg:mb-5">Register Now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card lg:ml-5 lg:mt-4 lg:w-fit bg-base-100 shadow-xl image-full">
+                    <figure><img src="./Images/player-1.png"/></figure>
+                    <div class="card-body lg:mt-28 px-6 lg:px-8 ">
+                        <h2 class=" text-[1.5rem] lg:text-[1.75rem] font-extrabold lg:mt-12">Professional Program</h2>
+                        <p class="">
+                            Junior Program fosters young talents through structured <br> training, skill development, and mentorship,  preparing them<br> for successful careers in hockey.
+                        </p>
+                        <div class="">
+                            <button class="btn text-white bg-[#FF4240] hover:bg-[#FF4240] outline-none border-none lg:mb-5">Register Now!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hr  -->
+        <div class="border-t border-dashed border-gray-500 mt-4 mb-5 lg:mt-20 lg:mb-8"></div>
+
     </main>
     <footer>
 
